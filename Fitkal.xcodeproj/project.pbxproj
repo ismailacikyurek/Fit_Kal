@@ -13,6 +13,7 @@
 		4416D8562AC9D038008323D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8542AC9D038008323D5 /* Main.storyboard */; };
 		4416D8582AC9D039008323D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8572AC9D039008323D5 /* Assets.xcassets */; };
 		4416D85B2AC9D039008323D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8592AC9D039008323D5 /* LaunchScreen.storyboard */; };
+		44398EBB2AC9DB2D0047ECF1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44398EBA2AC9DB2D0047ECF1 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44398EBB2AC9DB2D0047ECF1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Fitkal;
+			packageProductDependencies = (
+				44398EBA2AC9DB2D0047ECF1 /* SnapKit */,
+			);
 			productName = Fitkal;
 			productReference = 4416D84B2AC9D038008323D5 /* Fitkal.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 4416D8422AC9D038008323D5;
+			packageReferences = (
+				44398EB92AC9DB2D0047ECF1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4416D84C2AC9D038008323D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44398EB92AC9DB2D0047ECF1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44398EBA2AC9DB2D0047ECF1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44398EB92AC9DB2D0047ECF1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4416D8432AC9D038008323D5 /* Project object */;
 }
