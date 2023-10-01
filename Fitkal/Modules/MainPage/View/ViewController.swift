@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
-
+  let mainPageView = MainPageView()
   override func viewDidLoad() {
     super.viewDidLoad()
-    //sdf - a
+    view = mainPageView
+    view.backgroundColor = .red
   }
 
 

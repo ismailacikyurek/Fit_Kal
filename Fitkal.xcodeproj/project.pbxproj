@@ -10,10 +10,32 @@
 		4416D84F2AC9D038008323D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416D84E2AC9D038008323D5 /* AppDelegate.swift */; };
 		4416D8512AC9D038008323D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416D8502AC9D038008323D5 /* SceneDelegate.swift */; };
 		4416D8532AC9D038008323D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416D8522AC9D038008323D5 /* ViewController.swift */; };
-		4416D8562AC9D038008323D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8542AC9D038008323D5 /* Main.storyboard */; };
 		4416D8582AC9D039008323D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8572AC9D039008323D5 /* Assets.xcassets */; };
 		4416D85B2AC9D039008323D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4416D8592AC9D039008323D5 /* LaunchScreen.storyboard */; };
 		44398EBB2AC9DB2D0047ECF1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44398EBA2AC9DB2D0047ECF1 /* SnapKit */; };
+		44398EC22AC9DBE60047ECF1 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EC12AC9DBE60047ECF1 /* MainPageView.swift */; };
+		44398EC52AC9DC390047ECF1 /* generalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EC42AC9DC390047ECF1 /* generalProtocol.swift */; };
+		44398EC92AC9DC920047ECF1 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EC82AC9DC920047ECF1 /* View+Extension.swift */; };
+		44398ED22AC9DDAA0047ECF1 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398ED12AC9DDAA0047ECF1 /* CustomCollectionView.swift */; };
+		44398ED42AC9DDAD0047ECF1 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398ED32AC9DDAD0047ECF1 /* CustomLabel.swift */; };
+		44398ED62AC9DE1C0047ECF1 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398ED52AC9DE1C0047ECF1 /* CustomImageView.swift */; };
+		44398ED82AC9DE210047ECF1 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398ED72AC9DE210047ECF1 /* CustomPageControl.swift */; };
+		44398EDA2AC9DE240047ECF1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398ED92AC9DE240047ECF1 /* CustomView.swift */; };
+		44398EDC2AC9DE270047ECF1 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EDB2AC9DE270047ECF1 /* UITextView.swift */; };
+		44398EDE2AC9DE290047ECF1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EDD2AC9DE290047ECF1 /* CustomTextField.swift */; };
+		44398EE72AC9DE810047ECF1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EE42AC9DE810047ECF1 /* Colors.swift */; };
+		44398EE82AC9DE810047ECF1 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EE52AC9DE810047ECF1 /* ScreenSize.swift */; };
+		44398EE92AC9DE810047ECF1 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EE62AC9DE810047ECF1 /* TextStyle.swift */; };
+		44398EEB2AC9DEC80047ECF1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EEA2AC9DEC80047ECF1 /* CustomButton.swift */; };
+		44398EF62AC9DF2A0047ECF1 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF02AC9DF2A0047ECF1 /* TitilliumWeb-SemiBold.ttf */; };
+		44398EF72AC9DF2A0047ECF1 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF12AC9DF2A0047ECF1 /* TitilliumWeb-Regular.ttf */; };
+		44398EF82AC9DF2A0047ECF1 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF22AC9DF2A0047ECF1 /* TitilliumWeb-Bold.ttf */; };
+		44398EF92AC9DF2A0047ECF1 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF32AC9DF2A0047ECF1 /* TitilliumWeb-Light.ttf */; };
+		44398EFA2AC9DF2A0047ECF1 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF42AC9DF2A0047ECF1 /* TitilliumWeb-Black.ttf */; };
+		44398EFB2AC9DF2A0047ECF1 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44398EF52AC9DF2A0047ECF1 /* TitilliumWeb-ExtraLight.ttf */; };
+		44398EFF2AC9E6F70047ECF1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398EFE2AC9E6F70047ECF1 /* SignInView.swift */; };
+		44398F012AC9E7080047ECF1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398F002AC9E7080047ECF1 /* SignInVC.swift */; };
+		44398F032AC9FCA40047ECF1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44398F022AC9FCA40047ECF1 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +43,32 @@
 		4416D84E2AC9D038008323D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4416D8502AC9D038008323D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4416D8522AC9D038008323D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4416D8552AC9D038008323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4416D8572AC9D039008323D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4416D85A2AC9D039008323D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4416D85C2AC9D039008323D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44398EC12AC9DBE60047ECF1 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		44398EC42AC9DC390047ECF1 /* generalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalProtocol.swift; sourceTree = "<group>"; };
+		44398EC82AC9DC920047ECF1 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		44398ED12AC9DDAA0047ECF1 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
+		44398ED32AC9DDAD0047ECF1 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		44398ED52AC9DE1C0047ECF1 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		44398ED72AC9DE210047ECF1 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		44398ED92AC9DE240047ECF1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		44398EDB2AC9DE270047ECF1 /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		44398EDD2AC9DE290047ECF1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		44398EE42AC9DE810047ECF1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		44398EE52AC9DE810047ECF1 /* ScreenSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		44398EE62AC9DE810047ECF1 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		44398EEA2AC9DEC80047ECF1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		44398EF02AC9DF2A0047ECF1 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		44398EF12AC9DF2A0047ECF1 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		44398EF22AC9DF2A0047ECF1 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		44398EF32AC9DF2A0047ECF1 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		44398EF42AC9DF2A0047ECF1 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		44398EF52AC9DF2A0047ECF1 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		44398EFE2AC9E6F70047ECF1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		44398F002AC9E7080047ECF1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		44398F022AC9FCA40047ECF1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +102,133 @@
 		4416D84D2AC9D038008323D5 /* Fitkal */ = {
 			isa = PBXGroup;
 			children = (
+				44398EEC2AC9DF020047ECF1 /* Support */,
+				44398ECE2AC9DD940047ECF1 /* Componentss */,
+				44398EC72AC9DC840047ECF1 /* Extension */,
+				44398EC32AC9DC2E0047ECF1 /* Helper */,
+				44398EBC2AC9DBAC0047ECF1 /* Modules */,
 				4416D84E2AC9D038008323D5 /* AppDelegate.swift */,
 				4416D8502AC9D038008323D5 /* SceneDelegate.swift */,
-				4416D8522AC9D038008323D5 /* ViewController.swift */,
-				4416D8542AC9D038008323D5 /* Main.storyboard */,
 				4416D8572AC9D039008323D5 /* Assets.xcassets */,
 				4416D8592AC9D039008323D5 /* LaunchScreen.storyboard */,
 				4416D85C2AC9D039008323D5 /* Info.plist */,
 			);
 			path = Fitkal;
+			sourceTree = "<group>";
+		};
+		44398EBC2AC9DBAC0047ECF1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				44398EFC2AC9E6DE0047ECF1 /* SignIn */,
+				44398EBD2AC9DBB50047ECF1 /* MainPage */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		44398EBD2AC9DBB50047ECF1 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				44398EC02AC9DBD50047ECF1 /* ViewModel */,
+				44398EBE2AC9DBC20047ECF1 /* View */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		44398EBE2AC9DBC20047ECF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4416D8522AC9D038008323D5 /* ViewController.swift */,
+				44398EC12AC9DBE60047ECF1 /* MainPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44398EC02AC9DBD50047ECF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44398EC32AC9DC2E0047ECF1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				44398EE32AC9DE730047ECF1 /* Design */,
+				44398EC42AC9DC390047ECF1 /* generalProtocol.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		44398EC72AC9DC840047ECF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44398EC82AC9DC920047ECF1 /* View+Extension.swift */,
+				44398F022AC9FCA40047ECF1 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		44398ECE2AC9DD940047ECF1 /* Componentss */ = {
+			isa = PBXGroup;
+			children = (
+				44398EDD2AC9DE290047ECF1 /* CustomTextField.swift */,
+				44398EDB2AC9DE270047ECF1 /* UITextView.swift */,
+				44398ED92AC9DE240047ECF1 /* CustomView.swift */,
+				44398ED72AC9DE210047ECF1 /* CustomPageControl.swift */,
+				44398ED52AC9DE1C0047ECF1 /* CustomImageView.swift */,
+				44398ED32AC9DDAD0047ECF1 /* CustomLabel.swift */,
+				44398ED12AC9DDAA0047ECF1 /* CustomCollectionView.swift */,
+				44398EEA2AC9DEC80047ECF1 /* CustomButton.swift */,
+			);
+			path = Componentss;
+			sourceTree = "<group>";
+		};
+		44398EE32AC9DE730047ECF1 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				44398EE42AC9DE810047ECF1 /* Colors.swift */,
+				44398EE52AC9DE810047ECF1 /* ScreenSize.swift */,
+				44398EE62AC9DE810047ECF1 /* TextStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		44398EEC2AC9DF020047ECF1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				44398EEF2AC9DF230047ECF1 /* font */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		44398EEF2AC9DF230047ECF1 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				44398EF42AC9DF2A0047ECF1 /* TitilliumWeb-Black.ttf */,
+				44398EF22AC9DF2A0047ECF1 /* TitilliumWeb-Bold.ttf */,
+				44398EF52AC9DF2A0047ECF1 /* TitilliumWeb-ExtraLight.ttf */,
+				44398EF32AC9DF2A0047ECF1 /* TitilliumWeb-Light.ttf */,
+				44398EF12AC9DF2A0047ECF1 /* TitilliumWeb-Regular.ttf */,
+				44398EF02AC9DF2A0047ECF1 /* TitilliumWeb-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		44398EFC2AC9E6DE0047ECF1 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				44398EFD2AC9E6E80047ECF1 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		44398EFD2AC9E6E80047ECF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44398EFE2AC9E6F70047ECF1 /* SignInView.swift */,
+				44398F002AC9E7080047ECF1 /* SignInVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44398EF72AC9DF2A0047ECF1 /* TitilliumWeb-Regular.ttf in Resources */,
+				44398EFB2AC9DF2A0047ECF1 /* TitilliumWeb-ExtraLight.ttf in Resources */,
 				4416D85B2AC9D039008323D5 /* LaunchScreen.storyboard in Resources */,
+				44398EF92AC9DF2A0047ECF1 /* TitilliumWeb-Light.ttf in Resources */,
 				4416D8582AC9D039008323D5 /* Assets.xcassets in Resources */,
-				4416D8562AC9D038008323D5 /* Main.storyboard in Resources */,
+				44398EF82AC9DF2A0047ECF1 /* TitilliumWeb-Bold.ttf in Resources */,
+				44398EFA2AC9DF2A0047ECF1 /* TitilliumWeb-Black.ttf in Resources */,
+				44398EF62AC9DF2A0047ECF1 /* TitilliumWeb-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,23 +313,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44398EFF2AC9E6F70047ECF1 /* SignInView.swift in Sources */,
+				44398EE92AC9DE810047ECF1 /* TextStyle.swift in Sources */,
+				44398EDE2AC9DE290047ECF1 /* CustomTextField.swift in Sources */,
 				4416D8532AC9D038008323D5 /* ViewController.swift in Sources */,
+				44398ED42AC9DDAD0047ECF1 /* CustomLabel.swift in Sources */,
+				44398ED82AC9DE210047ECF1 /* CustomPageControl.swift in Sources */,
 				4416D84F2AC9D038008323D5 /* AppDelegate.swift in Sources */,
+				44398F012AC9E7080047ECF1 /* SignInVC.swift in Sources */,
+				44398F032AC9FCA40047ECF1 /* String+Extension.swift in Sources */,
+				44398EC52AC9DC390047ECF1 /* generalProtocol.swift in Sources */,
+				44398EC22AC9DBE60047ECF1 /* MainPageView.swift in Sources */,
+				44398EDC2AC9DE270047ECF1 /* UITextView.swift in Sources */,
+				44398EE82AC9DE810047ECF1 /* ScreenSize.swift in Sources */,
+				44398EE72AC9DE810047ECF1 /* Colors.swift in Sources */,
+				44398EC92AC9DC920047ECF1 /* View+Extension.swift in Sources */,
 				4416D8512AC9D038008323D5 /* SceneDelegate.swift in Sources */,
+				44398EEB2AC9DEC80047ECF1 /* CustomButton.swift in Sources */,
+				44398EDA2AC9DE240047ECF1 /* CustomView.swift in Sources */,
+				44398ED22AC9DDAA0047ECF1 /* CustomCollectionView.swift in Sources */,
+				44398ED62AC9DE1C0047ECF1 /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4416D8542AC9D038008323D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4416D8552AC9D038008323D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4416D8592AC9D039008323D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,7 +476,6 @@
 				INFOPLIST_FILE = Fitkal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +503,6 @@
 				INFOPLIST_FILE = Fitkal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
