@@ -18,7 +18,7 @@ class SignInView: UIView {
 
 
     lazy var welcomeToLabel = UILabel()
-    lazy var fitkalLabel = UILabel()
+    lazy var fitkalImageView = UIImageView()
     lazy var signInAppleButton = UIButton()
     lazy var signInGoogleButton = UIButton()
     lazy var orLabel = UILabel()
@@ -49,10 +49,10 @@ extension SignInView : GeneralViewProtocol {
 
 //
         welcomeToLabel.createLabel(text: "Hoşgeldin", textColor: .black, font: .Bold_44, textAlignment: .center)
-        fitkalLabel.createLabel(text: "Fit Kal", textColor: .black, font: .Bold_44, textAlignment: .center)
+        fitkalImageView.createUIImageView(image: UIImage(named: "fitkalLogo"))
 
 
-      signInAppleButton.createButton(title: "Apple Hesabı İle giriş Yap", titleColor: .black,cornerRadius: 16)
+      signInAppleButton.createButton(title: "Apple Hesabı İle Giriş Yap", titleColor: .black,cornerRadius: 16)
       let config = UIImage.SymbolConfiguration(scale: .large)
       let image = UIImage(systemName: "apple.logo", withConfiguration: config)
       signInAppleButton.setImage(image, for: .normal)
@@ -61,7 +61,7 @@ extension SignInView : GeneralViewProtocol {
 
 
 
-      signInGoogleButton.createButton(title: "Google Hesabı İle giriş Yap", titleColor: .black,cornerRadius: 16)
+      signInGoogleButton.createButton(title: "Google Hesabı İle Giriş Yap", titleColor: UIColor.blue,cornerRadius: 16)
       signInGoogleButton.setImage(UIImage(named: "google"), for: .normal)
       signInGoogleButton.imageEdgeInsets.left = -10
       signInGoogleButton.addBorderColor(borderColor: UIColor.gray.cgColor, borderWidth: 0.3)
@@ -74,7 +74,7 @@ extension SignInView : GeneralViewProtocol {
 
     func layoutUI() {
         welcomeToLabelConstraints()
-        fitkalLabelConstraints()
+        fitkalLogoConstraints()
         signInAppleButtonConstraints()
         signInGoogleButtonConstraints()
         orLabelConstraints()
@@ -82,7 +82,7 @@ extension SignInView : GeneralViewProtocol {
     }
 
     func addView() {
-        addSubviews(welcomeToLabel,fitkalLabel,signInAppleButton,signInGoogleButton,orLabel,newAccountLabel)
+        addSubviews(welcomeToLabel,fitkalImageView,signInAppleButton,signInGoogleButton,orLabel,newAccountLabel)
     }
 
     func addTarget() {
@@ -118,18 +118,18 @@ extension SignInView {
             make.height.equalTo(70)
         }
     }
-    func fitkalLabelConstraints() {
-        self.fitkalLabel.snp.makeConstraints { make in
-          make.top.equalTo(welcomeToLabel.snp.bottom).offset(13)
-          make.leading.equalTo(welcomeToLabel.snp.leading).offset(0)
+    func fitkalLogoConstraints() {
+        self.fitkalImageView.snp.makeConstraints { make in
+          make.top.equalTo(welcomeToLabel.snp.bottom).offset(3)
+          make.leading.equalTo(welcomeToLabel.snp.leading).offset(70)
           make.trailing.equalTo(welcomeToLabel.snp.trailing).offset(0)
-          make.height.equalTo(welcomeToLabel)
+          make.height.equalTo(40)
         }
     }
 
     func signInAppleButtonConstraints() {
         self.signInAppleButton.snp.makeConstraints { make in
-            make.top.equalTo(fitkalLabel.snp.bottom).offset(30)
+            make.top.equalTo(fitkalImageView.snp.bottom).offset(30)
             make.leading.equalTo(self.snp.leading).offset(40)
             make.trailing.equalTo(self.snp.trailing).offset(-40)
             make.height.equalTo(60)
@@ -146,7 +146,7 @@ extension SignInView {
     }
   func orLabelConstraints() {
       self.orLabel.snp.makeConstraints { make in
-        make.top.equalTo(signInGoogleButton.snp.bottom).offset(10)
+        make.top.equalTo(signInGoogleButton.snp.bottom).offset(25)
         make.leading.equalTo(signInAppleButton.snp.leading).offset(0)
         make.trailing.equalTo(signInAppleButton.snp.trailing).offset(0)
         make.height.equalTo(signInAppleButton)
